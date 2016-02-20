@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  
+  <!-- Include-Path -->
+  <PropertyGroup>
+    <IncludePath>$(MSBuildThisFileDirectory);$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  
+  <ItemDefinitionGroup />
+  <ItemGroup />
+  
+  <!-- Project reference -->
+  <ItemGroup>
+  <ProjectReference Include="$(MSBuildThisFileDirectory)\ImageLibrary.vcxproj">
+    <Project>{DD9F7D1D-B22C-4B88-8167-7F1884709C19}</Project>
+	<UseLibraryDependencyInputs>true</UseLibraryDependencyInputs>
+  </ProjectReference>
+  </ItemGroup>
+  
+</Project>
