@@ -1,2 +1,2 @@
 # TestProject_ProjectDependencies
-See http://blog.milania.de/index.php?/archives/21-Project-references-in-Visual-Studio-and-C++.html
+See http://milania.de/blog/Project_references_in_Visual_Studio_and_C%2B%2B
